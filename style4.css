@@ -1,0 +1,10 @@
+body {
+    padding: 0% 30% 10% 30%;
+    background: linear-gradient(270deg, #cfdc3e 0%,#ebfa01 50%,#cfdc3e 100%);
+    transform: scale(1.2rem);  
+    color: rgb(62, 69, 75);
+    font-weight: bolder;
+    font-family: "Roboto Mono", sans-serif;
+  
+   
+  }

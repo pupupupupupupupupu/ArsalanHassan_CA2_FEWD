@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pong Game JavaScript</title>
+    <style>
+      body {
+        background: url("https://66.media.tumblr.com/ed4b6b8ce34edc07966aff6648746ed4/tumblr_ou39q9MsUB1vl7f7ko1_500.gifv");
+      }
+      #pong {
+        border: 2px solid #fff;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+
+      .flex-centered {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #fff;
+        transform: scale(5);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timer" class="flex-centered"></div>
+    <canvas id="pong" width="800" height="600"></canvas>
+    <script src="pong.js"></script>
+  </body>
+</html>
