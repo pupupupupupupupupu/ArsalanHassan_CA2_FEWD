@@ -209,11 +209,11 @@ let loop = setInterval(game, 1000 / framePerSecond);
 
 //  Build a timer for the game
 
-var time = 10;
+var time = 30;
 var timer = document.getElementById("timer");
 
 function startTimer() {
-  time = 10;
+  time = 30;
   timer.innerHTML = time;
 
   timerId = setInterval(() => {
